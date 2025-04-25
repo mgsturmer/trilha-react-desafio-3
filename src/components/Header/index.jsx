@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/logo-dio.png';
+import { Link } from 'react-router-dom';
 
 import { Button } from '../Button';
 
@@ -10,7 +11,10 @@ const Header = ({autenticado}) => {
     <Wrapper>
       <Container>
           <Row>
+          <Link to="/">
             <img src={logo} alt="Logo da dio"/>
+          </Link>
+
             {autenticado ? (
               <>
                <BuscarInputContainer>
@@ -27,8 +31,12 @@ const Header = ({autenticado}) => {
               ) : (
               <>
                 <MenuRight href="/">Home</MenuRight>
-                <Button title="Entrar" />
-                <Button title="Cadastrar" />
+                <Link to="/login">
+                  <Button title="Entrar" />
+                </Link>
+                <Link to="/register">
+                  <Button title="Cadastrar" />
+                </Link>
               </>)}
           </Row>
       </Container>

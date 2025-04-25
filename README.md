@@ -8,7 +8,7 @@ Interface baseada no [design do Figma](https://www.figma.com/design/fvjQQNtqaUdp
 
 ---
 
-## 🚀 Tecnologias utilizadas (principais)
+## Tecnologias utilizadas (principais)
 
 - React.js
 - React Router DOM
@@ -16,7 +16,7 @@ Interface baseada no [design do Figma](https://www.figma.com/design/fvjQQNtqaUdp
 - Styled-components
 
 
-## 🧠 Funcionalidades
+## Funcionalidades
 
 - Página **Home** com botão "Começar Agora"
 - Página **Login** com validação de campos
@@ -28,10 +28,14 @@ Interface baseada no [design do Figma](https://www.figma.com/design/fvjQQNtqaUdp
 
 ---
 
-## ✨ Novidades implementadas
+## Novidades implementadas
 
 - 🔗 Botões "Entrar" e "Começar Agora" agora direcionam corretamente para a rota `/login`
 - 🆕 Criada a **página de cadastro** com base no design do Figma
 - 🔄 Refatoração do componente `Header` para usar `useNavigate` e navegação via clique
 - 🧩 Estilizações refinadas com `styled-components` em alguns textos.
+
+## 📸 PRINTS: 
+![image](https://github.com/user-attachments/assets/354facb6-fcb8-4b71-a9b0-a2a9981c6bd3)
+
 
